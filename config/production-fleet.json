@@ -1,0 +1,20 @@
+[
+  { "name": "checkout-api", "tier": 0, "team": "commerce", "region": "global" },
+  { "name": "payment-authorizer", "tier": 0, "team": "payments", "region": "global" },
+  { "name": "identity-token", "tier": 0, "team": "identity", "region": "global" },
+  { "name": "order-router", "tier": 0, "team": "commerce", "region": "global" },
+  { "name": "fraud-score", "tier": 1, "team": "risk", "region": "us-east" },
+  { "name": "inventory-reservation", "tier": 1, "team": "fulfillment", "region": "global" },
+  { "name": "billing-ledger", "tier": 1, "team": "payments", "region": "us-east" },
+  { "name": "tax-calculator", "tier": 1, "team": "finance", "region": "global" },
+  { "name": "shipping-quote", "tier": 1, "team": "fulfillment", "region": "global" },
+  { "name": "feature-flags", "tier": 1, "team": "platform", "region": "global" },
+  { "name": "catalog-api", "tier": 2, "team": "catalog", "region": "global" },
+  { "name": "search-api", "tier": 2, "team": "discovery", "region": "global" },
+  { "name": "recommendations", "tier": 2, "team": "discovery", "region": "us-west" },
+  { "name": "receipt-renderer", "tier": 2, "team": "payments", "region": "us-east" },
+  { "name": "notification-fanout", "tier": 2, "team": "engagement", "region": "global" },
+  { "name": "support-events", "tier": 3, "team": "support", "region": "us-east" },
+  { "name": "analytics-ingest", "tier": 3, "team": "data", "region": "us-west" },
+  { "name": "warehouse-sync", "tier": 3, "team": "fulfillment", "region": "eu-west" }
+]

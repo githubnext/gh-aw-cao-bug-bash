@@ -1,0 +1,21 @@
+{
+  "services": [
+    "accounts",
+    "billing",
+    "checkout",
+    "notifications",
+    "search",
+    "warehouse"
+  ],
+  "policy": {
+    "rolloutPercent": 25,
+    "maxRetries": 2,
+    "retryDelaySeconds": 15,
+    "batchSize": 2
+  },
+  "notifications": {
+    "channel": "#release-ops",
+    "reminderMinutes": 30
+  },
+  "owner": "release-engineering"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "gh-aw-cao-bug-bash",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node src/demo.mjs examples/paused-rollout.json",
+    "inspect:config": "node scripts/inspect-config.mjs config/team-overrides.json",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "checkout": {
+    "rolloutPercent": 25,
+    "batchSize": 2,
+    "maxRetries": 2
+  },
+  "notifications": {
+    "rolloutPercent": 10,
+    "retryDelaySeconds": 60
+  },
+  "search": {
+    "rolloutPercent": 0,
+    "maxRetries": 0,
+    "retryDelaySeconds": 0
+  },
+  "warehouse": {
+    "rolloutPercent": "50",
+    "batchSize": "5"
+  }
+}

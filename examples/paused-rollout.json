@@ -1,0 +1,14 @@
+{
+  "inventory": "config/production-fleet.json",
+  "policy": {
+    "rolloutPercent": 0,
+    "maxRetries": 0,
+    "retryDelaySeconds": 0,
+    "batchSize": 10
+  },
+  "notifications": {
+    "channel": "#change-control",
+    "reminderMinutes": 0
+  },
+  "owner": "platform-release"
+}
